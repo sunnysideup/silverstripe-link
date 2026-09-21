@@ -15,18 +15,12 @@
   ],
   "homepage": "https://gorriecoe.github.io/silverstripe-link/en/",
   "require": {
-    "silverstripe/framework": "^4 || ^5",
-    "unclecheese/display-logic": "^2 || ^3",
-    "giggsey/libphonenumber-for-php": "^8.0",
-    "sheadawson/silverstripe-dependentdropdownfield": "dev-master"
+    "sheadawson/silverstripe-dependentdropdownfield": "dev-master",
+    "silverstripe/framework": "^6",
+    "unclecheese/display-logic": "*",
+    "giggsey/libphonenumber-for-php": "^8 || ^9"
   },
   "extra": {
     "installer-name": "link"
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/anhld/silverstripe-dependentdropdownfield"
-    }
-  ]
+  }
 }
