@@ -176,8 +176,6 @@ class LinkSiteTree extends Extension
      */
     public function onBeforeWrite()
     {
-        parent::onBeforeWrite();
-
         $owner = $this->getOwner();
 
         if (empty($owner->Title) && $owner->Type === "SiteTree" && $owner->SiteTreeID && $owner->ElementID && $element = $owner->Element()) {
